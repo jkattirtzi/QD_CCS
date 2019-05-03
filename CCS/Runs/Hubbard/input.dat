@@ -1,0 +1,43 @@
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#					Input File								!!!
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# ! Type number of dimensions
+ndim 2
+# ! Give the value of hbar to define the units
+hbar 1.0d0
+# ! Number of basis functions 
+nbf 1
+# determines whether the basis set is symmetrical
+sym NO
+# The gamma for each degree of freedom
+# syntax is :
+# word(gamma) (degree number) gamma(value)
+# e.g:
+# if you have more than one degree of freedom put it directly below the first
+gamma 1 1.0d0
+gamma 2 1.0d0
+#gamma 3 1.0
+mass 1 1.0d0
+mass 2 1.0d0
+#mass 3 3.0d0
+wfreq 1 1.0d0
+wfreq 2 1.0d0
+#wfreq 3 2.5d0
+#
+# The syntax for mass would be the same as that for the gamma
+# Seed value for doing the random number routine- if you do not specify it will automatically generate one
+SEED 0
+# output unit value, where to print the seed, this needs work and changing after output section written
+outp 130
+# mean for p -one for each degree of freedom is needed with the same syntax as mass and gamma
+meanp 1 0.0d0
+meanp 2 0.0d0
+#meanp 3 3.3
+# mean for q - like mean for p
+meanq 1 4.472135955d0
+meanq 2 0.0d0
+#meanq 3 3.3
+#give standard deviations for p and q, called sigma, this gives a spread for the randgen, one needed in total for each
+sigp 1.0d0
+sigq 1.0d0
+# end of input- i'm not sure why but without this final comment get an error reading in sigq

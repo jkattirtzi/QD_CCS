@@ -1,0 +1,16 @@
+# System specific options
+
+
+PROGNAME =      MorseRK
+
+FC = /usr//bin/gfortran
+FFLAGS = -O3 
+#-fbounds-check 
+F90 = /usr/bin/gfortran
+#F90FLAGS = -O3 
+#-fbounds-check
+LDFLAGS =  
+
+# Use system lapack and dummy mpi/scalapack library
+LIBS = -L. -llapackJK
+

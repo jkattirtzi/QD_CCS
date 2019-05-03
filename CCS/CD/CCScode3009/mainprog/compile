@@ -1,0 +1,5 @@
+FC=gfortran
+cd LAPACK
+$FC -c dep.f driv.f
+cd ../
+$FC -O3 -o CCSProgO3 -m64 -static-libgfortran -fbounds-check ./LAPACK/dep.o ./LAPACK/driv.o basissetread.f90 ACF2.f90 HamiltonianSpec.f90 GenHam.f90 Integration.f90 Hubbard.f90 OutMod.f90 prog3test.f90

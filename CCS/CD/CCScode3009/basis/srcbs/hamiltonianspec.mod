@@ -1,0 +1,165 @@
+GFORTRAN module version '6' created from HamiltonianSpec.f90 on Mon May 28 20:32:12 2012
+MD5:c60dfe12b78074b4994de30f096b50a1 -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () () () ()
+() () () ())
+
+()
+
+()
+
+()
+
+()
+
+()
+
+(2 'ah' 'hamiltonianspec' 'ah' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0
+0 () (1 0 DEFERRED () ()) 0 () () () 0 0)
+3 'alchampar' 'hamiltonianspec' 'alchampar' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0
+() () 0 () () () 0 0)
+4 'bsetmk' 'bsetmk' 'bsetmk' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+5 'csbasisfn' 'bsetmk' 'csbasisfn' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 ALLOC_COMP) (UNKNOWN 0 0 0 UNKNOWN ())
+0 0 () () 0 ((6 'z' (COMPLEX 8 0 0 COMPLEX ()) (1 0 DEFERRED () ()) (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 ALLOCATABLE
+DIMENSION) UNKNOWN-ACCESS ()) (7 'd' (COMPLEX 8 0 0 COMPLEX ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (8 's' (REAL 8 0 0 REAL ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()))
+PUBLIC (() () () ()) () 0 0 78517909)
+9 'dh' 'hamiltonianspec' 'dh' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0
+0 () (1 0 DEFERRED () ()) 0 () () () 0 0)
+10 'dhorddz1cfree' 'hamiltonianspec' 'dhorddz1cfree' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (COMPLEX 8 0 0
+COMPLEX ()) 11 0 (12 13 14) () 10 () () () 0 0)
+15 'dhorddz1charm' 'hamiltonianspec' 'dhorddz1charm' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (COMPLEX 8 0 0
+COMPLEX ()) 16 0 (17 18 19) () 15 () () () 0 0)
+20 'dhorddz1chubb' 'hamiltonianspec' 'dhorddz1chubb' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (COMPLEX 8 0 0
+COMPLEX ()) 21 0 (22 23 24) () 20 () () () 0 0)
+25 'dhorddz1cmorse2' 'hamiltonianspec' 'dhorddz1cmorse2' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (COMPLEX 8 0 0
+COMPLEX ()) 26 0 (27 28 29) () 25 () () () 0 0)
+30 'dhorddz1free' 'hamiltonianspec' 'dhorddz1free' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (COMPLEX 8 0 0
+COMPLEX ()) 31 0 (32 33 34) () 30 () () () 0 0)
+35 'dhorddz1harm' 'hamiltonianspec' 'dhorddz1harm' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (COMPLEX 8 0 0
+COMPLEX ()) 36 0 (37 38 39) () 35 () () () 0 0)
+40 'eps' 'hamiltonianspec' 'eps' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 REAL ()) 0 0 () () 0
+() () () 0 0)
+41 'g' 'hamiltonianspec' 'g' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+42 'gam' 'bsetmk' 'gam' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (1
+0 DEFERRED () ()) 0 () () () 0 0)
+43 'hamiltonianspec' 'hamiltonianspec' 'hamiltonianspec' 1 ((MODULE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN
+()) 0 0 () () 0 () () () 0 0)
+44 'harmchk' 'hamiltonianspec' 'harmchk' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0
+() () 0 () () () 0 0)
+45 'hbar' 'bsetmk' 'hbar' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+46 'hordfree' 'hamiltonianspec' 'hordfree' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION IMPLICIT_PURE) (COMPLEX 8 0 0
+COMPLEX ()) 47 0 (48 49) () 46 () () () 0 0)
+50 'hordharm' 'hamiltonianspec' 'hordharm' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION IMPLICIT_PURE) (COMPLEX 8 0 0
+COMPLEX ()) 51 0 (52 53) () 50 () () () 0 0)
+54 'hordhubb' 'hamiltonianspec' 'hordhubb' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION IMPLICIT_PURE) (COMPLEX 8 0 0
+COMPLEX ()) 55 0 (56 57) () 54 () () () 0 0)
+58 'hordmorse2' 'hamiltonianspec' 'hordmorse2' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (COMPLEX 8 0 0
+COMPLEX ()) 59 0 (60 61) () 58 () () () 0 0)
+62 'kh' 'hamiltonianspec' 'kh' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0
+0 () (1 0 DEFERRED () ()) 0 () () () 0 0)
+63 'm' 'bsetmk' 'm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (1
+0 DEFERRED () ()) 0 () () () 0 0)
+64 'ndim' 'bsetmk' 'ndim' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+65 'nu' 'hamiltonianspec' 'nu' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+66 'readhamspec' 'hamiltonianspec' 'readhamspec' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 67 0 (68 69) () 0 () () () 0 0)
+70 'w' 'bsetmk' 'w' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (1
+0 DEFERRED () ()) 0 () () () 0 0)
+68 'line1' '' 'line1' 67 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '100'))) 0 0 () () 0 () () () 0 0)
+69 'namesys' '' 'namesys' 67 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '20'))) 0 0 () () 0 () () () 0 0)
+48 'bf1cz' '' 'bf1cz' 47 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+49 'bf2' '' 'bf2' 47 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+52 'bf1cz' '' 'bf1cz' 51 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+53 'bf2' '' 'bf2' 51 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+60 'bf1cz' '' 'bf1cz' 59 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+61 'bf2' '' 'bf2' 59 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+56 'bf1cz' '' 'bf1cz' 55 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+57 'bf2' '' 'bf2' 55 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+22 'bf1cz' '' 'bf1cz' 21 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+23 'bf2' '' 'bf2' 21 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+24 'i' '' 'i' 21 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+12 'bf1cz' '' 'bf1cz' 11 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+13 'bf2' '' 'bf2' 11 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+14 'i' '' 'i' 11 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+17 'bf1cz' '' 'bf1cz' 16 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+18 'bf2' '' 'bf2' 16 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+19 'i' '' 'i' 16 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+27 'bf1cz' '' 'bf1cz' 26 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+28 'bf2' '' 'bf2' 26 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+29 'i' '' 'i' 26 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+33 'bf2' '' 'bf2' 31 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+32 'bf1cz' '' 'bf1cz' 31 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+34 'i' '' 'i' 31 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+37 'bf1cz' '' 'bf1cz' 36 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+38 'bf2' '' 'bf2' 36 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+39 'i' '' 'i' 36 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+)
+
+('ah' 0 2 'alchampar' 0 3 'bsetmk' 0 4 'csbasisfn' 0 5 'dh' 0 9
+'dhorddz1cfree' 0 10 'dhorddz1charm' 0 15 'dhorddz1chubb' 0 20
+'dhorddz1cmorse2' 0 25 'dhorddz1free' 0 30 'dhorddz1harm' 0 35 'eps' 0
+40 'g' 0 41 'gam' 0 42 'hamiltonianspec' 0 43 'harmchk' 0 44 'hbar' 0 45
+'hordfree' 0 46 'hordharm' 0 50 'hordhubb' 0 54 'hordmorse2' 0 58 'kh' 0
+62 'm' 0 63 'ndim' 0 64 'nu' 0 65 'readhamspec' 0 66 'w' 0 70)

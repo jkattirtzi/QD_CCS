@@ -1,0 +1,9 @@
+#!	Unlike the other programs it is recommended
+#! 	to run the program in the runbs directory here
+#!	and not in the run directory above
+#!      This keeps the files organised.
+#!	The basisset.dat file should be copied into the
+#!	run directory from which the main program can be run
+#!	Information on running the basis set program is 
+#!	found in the text file located in the runbs 
+#!	directory. 

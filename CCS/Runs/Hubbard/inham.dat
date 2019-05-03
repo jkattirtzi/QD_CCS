@@ -1,0 +1,58 @@
+#System: Harmonic
+#ForceK 1 1.d0
+#ForceK 2 1.0d0
+
+#System: Free
+
+#System: Morse
+#alpha 1 0.22090d0
+#alpha 2 0.2209d0
+#alpha 1 0.0d0
+#alpha 1 1.0d0
+#MorseD 1 10.250d0
+#MorseD 1 10.25d0
+#MorseD 2 20.0d0
+#Emax 10.2d0
+
+System: Hubbard
+HubEps -0.5d0
+HubG   -0.1d0
+HubNu   1.d0 
+
+tmax 20.0d0
+t0 0.0d0
+dt 0.001d0
+
+dn 1
+Consv H1bf.conv
+Traj  H1bf.tra
+OutPname H1bf.outp
+Pop   H1bf.pop
+#ACF H1bf.acf
+#Bfout T1.bf
+
+#Decay decayp127ET23ii.dat
+#FT  FT127ET23ii.dat
+#E0 0.0d0
+#COSop can be yes or no
+#no is default
+#COSop YES
+#Eop YES
+#ETpar 23.0d0
+#Tdec 1.570d0
+#
+
+# basis functions cut off point
+# gives an energy cut off point for basis function
+#Ebfmin  -32.0d0
+#Ebfmax  -8.0d0
+#PopChk will determine if the pop check function will be on
+#PopChk YES
+# gives a total pop cut off 
+#Popmin 9.5
+#Popmax 10.5
+
+#gives a number of tries for to initialise bf with that energy
+Ntries 200
+
+#MAXJ 127000

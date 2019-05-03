@@ -1,0 +1,62 @@
+System: Harmonic
+ForceK 1 1.d0
+#ForceK 2 1.0d0
+
+#System: Free
+
+#System: Morse
+#alpha 1 0.22090d0
+#alpha 2 0.2209d0
+#alpha 1 0.0d0
+#alpha 1 1.0d0
+#MorseD 1 10.250d0
+#MorseD 1 10.25d0
+#MorseD 2 20.0d0
+#Emax 10.2d0
+
+#System: Hubbard
+#HubEps -0.5d0
+#HubG   -0.1d0
+#HubNu   1.d0 
+
+tmax 50.0d0
+t0 0.0d0
+dt 0.001d0
+
+dn 1
+Consv    HA10bf.conv
+#Traj     HT10bf.tra
+OutPname HA10bf.outp
+#ACF MA10bf.acf
+#Bfout T1.bf
+#Pop   M20bf.pop
+#
+#FT parameters
+Winop YES
+FTEmax 30.0d0
+E0   0.0d0
+DecOut HA10bfd6.dec
+FTOut  HA10bfd6.ft
+## ACF would go here but it is above
+ACF AvgHA10bf.acf
+## dt would go here
+FTcut 6.283185307 
+#jmax 10
+MAXJ 50001
+#       
+#
+
+# basis functions cut off point
+# gives an energy cut off point for basis function
+Ebfmin  0.0d0
+Ebfmax  10.0d0
+#PopChk will determine if the pop check function will be on
+#PopChk YES
+# gives a total pop cut off 
+#Popmin 9.5
+#Popmax 10.5
+
+#gives a number of tries for to initialise bf with that energy
+Ntries 200
+
+#MAXJ 127000

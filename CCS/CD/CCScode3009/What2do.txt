@@ -1,0 +1,12 @@
+#!	As explained in the readme file before this one
+#!	There are 4 directories, 3 with source code
+#!	and one (run) directory which can be used to run 
+#!	jobs. 
+#!	To compile the codes go into each directory and 
+#!	follow the instructions in the text file. 
+#! 	A sample script that compiles with gfortran has
+#!	been provided for the basis set and main program
+#!	This uses the gfortran compiler
+#!	The latest version of the gfortran compiler is 
+#!	recommended for this software
+#!	

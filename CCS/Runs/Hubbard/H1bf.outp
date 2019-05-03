@@ -1,0 +1,25 @@
+ # This is a general output file
+ it wil contain the initial conditions of the basis set 
+ Parameters from input.dat
+ Number of degrees of freedom/dimensions           2
+ Number of basis functions           1
+ units
+ hbar  1.00000000000000000      m  1.00000000000000000       1.00000000000000000      angular frequency  1.00000000000000000       1.00000000000000000      gamma  1.00000000000000000       1.00000000000000000     
+ initial wavefunction
+ Parameters from inham.dat
+ System:Hubbard             
+ Hamiltonian Parameters
+ Hubbard: g -0.10000000000000001      nu  1.00000000000000000      eps -0.50000000000000000     
+ Initial Time   0.0000000000000000     
+ Max Time   20.000000000000000     
+ Time step  1.00000000000000002E-003
+ Initial basis set
+ Initial z
+ basis function           1 z (  3.7354676723480225     ,  1.5236850976943970     ) (-0.11102864146232605     ,-0.18364256620407104     )
+ Initial d
+ basis function           1 d ( 2.74609904736280441E-002, 0.25827556848526001     )
+ Initial Calculated Properties:
+ Initial norm  6.74603752741769203E-002
+ Initial classical energy ( -37.624759949735058     ,  0.0000000000000000     )
+ Initial quantum total energy ( -2.5381804258099487     ,  0.0000000000000000     )
+ Initial quantum expectation energy (  2.4814343115227384     ,-0.53370744004786774     )

@@ -1,0 +1,50 @@
+#System: Harmonic
+#ForceK 1 1.d0
+#ForceK 2 1.0d0
+
+System: Free
+
+#System: Morse
+#alpha 1 0.22090d0
+#MorseD 1 10.250d0
+
+#System: Hubbard
+#HubEps -0.5d0
+#HubG   -0.1d0
+#HubNu   1.d0 
+
+# basis functions cut off point
+# gives an energy cut off point for basis function
+Ebfmin  -32.0d0
+Ebfmax  -8.0d0
+#PopChk will determine if the pop check function will be on
+PopChk YES
+# gives a total pop cut off 
+Popmin 9.5
+Popmax 10.5
+
+#gives a number of tries for to initialise bf with that energy
+Ntries 200
+
+tmax 25.0d0
+t0 0.0d0
+dt 0.001d0
+
+#dn 1
+#Consv    name.conv
+#Traj     name.tra
+OutPname name.outp
+#Pop   name.pop
+
+#ACF name.acf 
+#FT parameters
+#Winop YES
+#FTEmax 15.0d0
+#E0   0.0d0
+#DecOut name.dec
+#FTOut  name.ft
+## ACF would go here but it is above
+## dt would go here
+#FTcut 15.0d0
+#MAXJ 25000
+#

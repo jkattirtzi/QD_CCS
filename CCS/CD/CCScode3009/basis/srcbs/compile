@@ -1,0 +1,1 @@
+gfortran -g -o Mkprog -o ../run/Mkprog -m64 -static-libgfortran -fbounds-check randgen.f basisset.f90 HamiltonianSpec.f90 GenHam.f90 Hubbard.f90 Checks.f90  mkgbasisprog.f90

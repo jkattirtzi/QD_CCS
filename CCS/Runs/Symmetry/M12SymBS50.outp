@@ -1,0 +1,47 @@
+ # This is a general output file
+ it wil contain the initial conditions of the basis set 
+ Parameters from input.dat
+ Number of degrees of freedom/dimensions           1
+ Number of basis functions          12
+ units
+ hbar  1.00000000000000000      m  1.00000000000000000      angular frequency  1.00000000000000000      gamma  1.00000000000000000     
+ initial wavefunction
+ Parameters from inham.dat
+ System:Morse               
+ Hamiltonian Parameters
+ Morse D   10.250000000000000      Morse alpha  0.22090000000000001     
+ Initial Time   0.0000000000000000     
+ Max Time   50.000000000000000     
+ Time step  1.00000000000000002E-003
+ Initial basis set
+ Initial z
+ basis function           1 z (  4.0914502143859863     , 0.11429774761199951     )
+ basis function           2 z (  3.0634546279907227     ,-0.15116390585899353     )
+ basis function           3 z (  3.5374617576599121     , 0.14718076586723328     )
+ basis function           4 z (  4.0683422088623047     ,-0.70459634065628052     )
+ basis function           5 z (  3.0800535678863525     ,-0.21396327018737793     )
+ basis function           6 z (  5.2003469467163086     ,-0.63175284862518311     )
+ basis function           7 z (  4.0914502143859863     ,-0.11429774761199951     )
+ basis function           8 z (  3.0634546279907227     , 0.15116390585899353     )
+ basis function           9 z (  3.5374617576599121     ,-0.14718076586723328     )
+ basis function          10 z (  4.0683422088623047     , 0.70459634065628052     )
+ basis function          11 z (  3.0800535678863525     , 0.21396327018737793     )
+ basis function          12 z (  5.2003469467163086     , 0.63175284862518311     )
+ Initial d
+ basis function           1 d ( -593.87178379772456     , -285.93662308428804     )
+ basis function           2 d (  3221.8911391559268     ,  3058.4420802820673     )
+ basis function           3 d ( -2107.3906074543956     , -2055.5257614928246     )
+ basis function           4 d ( -3.0352105284591588     , -25.813721790846710     )
+ basis function           5 d ( -2943.5431289918911     , -1269.2155167869746     )
+ basis function           6 d ( 2.12232246486828979E-002, 0.38009562604627956     )
+ basis function           7 d ( -593.84747363148995     ,  285.98557018921258     )
+ basis function           8 d (  3221.6701490133019     , -3058.6836635160707     )
+ basis function           9 d ( -2107.2275436236532     ,  2055.6873676194723     )
+ basis function          10 d ( -3.0330933894155803     ,  25.814134006054129     )
+ basis function          11 d ( -2943.4550875215377     ,  1269.4353353478689     )
+ basis function          12 d ( 2.11881240200796316E-002,-0.38009967529403454     )
+ Initial Calculated Properties:
+ Initial norm   1.0000630414482994     
+ Initial classical energy (  63.954260576440326     ,  0.0000000000000000     )
+ Initial quantum total energy (  112519361.67023502     , 2.23535607801750302E-008)
+ Initial quantum expectation energy ( -29964.586874057564     ,  1.1729771902502983     )
